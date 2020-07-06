@@ -1,0 +1,791 @@
+/*---------------------------------------------------------------
+
+  Project Name: Montana - Minimal Portfolio HTML Template
+  File Name: style.css
+  Author: Peng Lam
+  Author URI: http://khaitawng.com
+  Version: 1.0.0
+
+------------------------------------------------------------------*/
+/*----------------------------------------------------------------
+
+// Table of contents //
+
+        Body
+    0.  Typography
+    1.  Buttons
+    2.  General
+    3.  Preloader
+    4.  Navigation section
+    5.  Home section
+    6.  Service section
+    7.  About section
+    8.  Work section
+    9.  Testimonial section
+    10. Client section
+    11. Contact section
+    12. Footer section
+    13. Social icon
+    14. Mobile Responsive styles
+
+------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i');
+
+body {
+    background: #ffffff;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*---------------------------------------
+    0 Typorgraphy              
+-----------------------------------------*/
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  line-height: normal;
+}
+
+h1 {
+  color: #353535;
+  font-size: 29px;
+}
+
+h2 {
+  color: #454545;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  color: #505050;
+}
+
+h5 {
+  color: #656565;
+  letter-spacing: 0.5px;
+}
+
+
+p {
+  color: #757575;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+
+/*---------------------------------------
+    1 Buttons               
+-----------------------------------------*/
+
+.btn-success:focus {
+  background-color: #000000;
+  border-color: transparent;
+}
+
+.section-btn {
+  background-color: #f9f9f9;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: normal;
+  color: #000000;
+  letter-spacing: 1.6px;
+  padding: 14px 28px;
+  margin-top: 32px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  text-transform: uppercase;
+}
+
+.section-btn:focus,
+.section-btn:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+
+
+/*---------------------------------------
+    2 General               
+-----------------------------------------*/
+
+html{
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #4d638c;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none !important;
+}
+
+a:hover, a:active, a:focus {
+  color: #4d638c;
+  outline: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #252525;
+}
+
+.section-title {
+  position: relative;
+  padding-bottom: 22px;
+}
+
+#about,
+#work,
+#testimonial,
+#contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#testimonial,
+#contact, footer {
+  text-align: center;
+}
+
+
+
+/*---------------------------------------
+    3 Preloader section              
+-----------------------------------------*/
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: none repeat scroll 0 0 #ffffff;
+}
+
+.spinner {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  position: relative;
+}
+
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 45px;
+  height: 45px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 1px solid #959595;
+  border-top-color: #ffffff;
+  animation: spinner .9s linear infinite;
+}
+
+@-webkit-@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+
+
+/*---------------------------------------
+    4 Navigation section              
+-----------------------------------------*/
+
+.custom-navbar {
+  border: none;
+  margin-bottom: 0;
+  background-color: #ffffff;
+  padding-top: 15px;
+}
+
+.custom-navbar .navbar-brand {
+  color: #656565;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.custom-navbar .nav li a {
+  font-size: 14px;
+  color: #656565;
+  line-height: 40px;
+  padding-right: 22px;
+  padding-left: 22px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+.custom-navbar .nav li a:hover {
+  background: transparent;
+  color: #353535;
+}
+
+.custom-navbar .navbar-nav > li > a:hover,
+.custom-navbar .navbar-nav > li > a:focus {
+  background-color: transparent;
+}
+
+.custom-navbar .nav li.active > a {
+  background-color: transparent;
+  color: #353535;
+}
+
+.custom-navbar .navbar-toggle {
+  border: none;
+  padding-top: 10px;
+}
+
+.custom-navbar .navbar-toggle {
+  background-color: transparent;
+}
+
+.custom-navbar .navbar-toggle .icon-bar {
+  background: #353535;
+  border-color: transparent;
+}
+
+@media(min-width:768px) {
+  .custom-navbar {
+    border-bottom: 0;
+    background: 0 0; 
+  }
+  .custom-navbar.top-nav-collapse {
+    background: #ffffff;
+    box-shadow:0 40px 100px rgba(0,0,0,.2);
+  }
+}
+
+
+
+/*---------------------------------------
+    5 Home section              
+-----------------------------------------*/
+
+#home .container {
+  width: 100%;
+}
+
+#home .col-md-6 {
+  background: #fefefe;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#home .home-img {
+  background: url('../images/home-img.jpg') no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100vh;
+}
+
+#home .home-text {
+  display: table;
+  height: 100vh;
+  position: relative;
+  padding: 280px 45px 0 65px;
+}
+
+
+
+/*---------------------------------------
+    6 Service section              
+-----------------------------------------*/
+
+#service {
+  background: #f9f9f9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#service .section-title {
+  padding-top: 42px;
+}
+
+#service .section-btn {
+  background: #000000;
+  color: #ffffff;
+}
+
+#service .service-thumb {
+  background: #ffffff;
+  padding: 62px 22px;
+  text-align: center;
+}
+
+.service-thumb small {
+  color: #757575;
+  font-size: 17px;
+  font-style: italic;
+  display: block;
+  padding: 6px 12px;
+}
+
+.service-thumb small:nth-of-type(even) {
+  background: #f9f9f9;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 4px 12px;
+}
+
+.service-thumb .fa {
+  border-radius: 100%;
+  font-size: 45px;
+}
+
+
+
+/*---------------------------------------
+    7 About section              
+-----------------------------------------*/
+
+#about {
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.about-text {
+  padding-top: 42px;
+}
+
+.about-text p {
+  padding-top: 6px;
+}
+
+.skill-thumb {
+  padding: 32px 16px 0 0;
+}
+
+.skill-thumb strong {
+  font-weight: normal;
+}
+
+.skill-thumb .progress {
+  background: #ffffff;
+  height: 2px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.skill-thumb .progress-bar {
+  background: #656565;
+  box-shadow: none;
+}
+
+
+
+/*---------------------------------------
+    8 Work section              
+-----------------------------------------*/
+
+.about-image img,
+.work-thumb img {
+  width: 100%;
+}
+
+.work-thumb {
+  margin: 15px 5px 5px 5px;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+.work-thumb:hover {
+  background: #ffffff;
+  box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+  top: -5px;
+}
+
+.work-overlay h4,
+.work-overlay h5 {
+  margin: 0;
+}
+
+#work .work-overlay {
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  position: absolute;
+  bottom: -45px;
+  left: 40px;
+}
+
+#work .col-md-4:hover .work-overlay {
+  bottom: 25px;
+}
+
+
+
+/*---------------------------------------
+   9 Testimonial section              
+-----------------------------------------*/
+
+#testimonial .item p {
+  font-size: 19px;
+  line-height: 30px;
+  font-style: italic;
+}
+
+.tst-author {
+  margin-top: 32px;
+}
+
+.tst-author .tst-foto {
+  display: inline-block;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  padding: 4px;
+  margin-right: 16px;
+}
+
+.tst-author .tst-foto img {
+  border-radius: 100%;
+}
+
+.tst-author .tst-author-info {
+  display: inline-block;
+  text-align: left;
+  width: auto;
+  position: relative;
+  top: -28px;
+}
+
+.tst-author .tst-author-info h4 {
+  margin-bottom: 4px;
+}
+
+.tst-author .tst-author-info h5 {
+  letter-spacing: 0.3px;
+  margin-top: 0px;
+}
+
+
+
+/*---------------------------------------
+   10 Client section              
+-----------------------------------------*/
+
+#client .container {
+  background: #f9f9f9;
+  padding: 102px 82px;
+  min-height: 400px;
+}
+
+#client .fa {
+  font-size: 45px;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
+
+#client ul li {
+  display: inline-block;
+  list-style: none;
+  vertical-align: top;
+  width: 14%;
+  margin: 0 12px;
+}
+
+#client ul li.small-width {
+  width: 10%;
+}
+
+
+
+/*---------------------------------------
+    11 Contact section              
+-----------------------------------------*/
+
+.contact-info {
+  padding-bottom: 42px;
+}
+
+#contact .text-success,
+#contact .text-danger {
+  display: none;
+}
+
+#contact .form-control {
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+#contact .form-control:focus {
+  border-color: #d9d9d9;
+}
+
+#contact input {
+  height: 50px;
+}
+
+#contact button#cf-submit {
+  background: #242424;
+  border: none;
+  border-radius: 40px;
+  color: #ffffff;
+  height: 50px;
+  margin-top: 7px;
+}
+
+#contact button#cf-submit:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+
+
+/*---------------------------------------
+    12 Footer section              
+-----------------------------------------*/
+
+footer {
+  border-top: 1px solid #f9f9f9;
+  padding: 20px 0 20px 0;
+}
+
+.footer-copyright p {
+  font-size: 14px;
+  padding-top: 6px;
+}
+
+
+
+/*---------------------------------------
+    13 Social Icon             
+-----------------------------------------*/
+
+.social-icon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.social-icon li {
+  display: inline-block;
+  list-style: none;
+}
+
+.social-icon li a {
+  background: #f9f9f9;
+  border-radius: 100%;
+  color: #999;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 0 4px 0 4px;
+}
+
+.social-icon li a:hover {
+  background: #f2f2f2;
+  color: #000000;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+/*---------------------------------------
+    14 Mobile Responsive styles              
+-----------------------------------------*/
+
+@media (max-width: 980px) {
+
+  #home .home-img,
+  #home .home-text {
+    height: 50vh;
+  }
+
+  #service .service-thumb {
+    padding-bottom: 22px;
+    margin-top: 28px;
+  }
+
+  #work .col-md-4 {
+    margin-bottom: 55px;
+  }
+
+  #client .container {
+    padding: 82px 62px;
+    min-height: 350px;
+  }
+
+  #client ul li {
+    width: 20%;
+    margin: 0;
+  }
+
+  #client ul li.small-width {
+    width: 15%;
+  }
+
+  #contact-form {
+    padding-top: 32px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .custom-navbar {background-color: #ffffff;box-shadow:0 40px 100px rgba(0,0,0,.2);}
+
+  #home .home-img,
+  #home .home-text {
+    height: 65vh;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+
+  h1 {
+    font-size: 28px;
+  }
+
+  #about, #service, #work,
+  #testimonial, #contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  #testimonial {
+    padding-top: 0;
+  }
+
+  #home .home-img {
+    height: 45vh;
+  }
+
+  #home .home-text {
+    height: 35vh;
+    padding-top: 80px;
+  }
+
+  .custom-navbar .navbar-brand {
+    line-height: 15px;
+  }
+
+  .custom-navbar .nav li a {
+    line-height: 15px;
+  }
+
+  #service .section-title {
+    padding-top: 0;
+  }
+
+  #work .col-md-4 {
+    margin-bottom: 75px;
+  }
+
+  #about .about-image {padding-top: 32px;}
+
+  .social-icon {
+    text-align: center;
+  }
+}
+
+
+
+@media (max-width: 650px) {
+
+  h1 {
+    font-size: 23px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  #home .home-text {
+    padding: 42px 22px;
+  }
+
+  #work .col-md-4 {
+    margin-bottom: 75px;
+  }
+
+  #client .container {
+    padding: 42px 22px;
+    min-height: inherit;
+  }
+
+  #client ul li {
+    width: 40%;
+    margin-bottom: 22px;
+  }
+
+  #client ul li.small-width {
+    width: 45%;
+  }
+
+  #client .fa {
+    margin-bottom: 12px;
+  }
+
+}
+
