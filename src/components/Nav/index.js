@@ -15,17 +15,17 @@ function Nav() {
                        <span className="icon icon-bar"></span>
                   </button>
              
-                  <a href="index.html" className="navbar-brand">Montana</a>
+                  <a href="index.html" className="navbar-brand">Kaitlyn Lynette</a>
              </div>
    
             
              <div className="collapse navbar-collapse">
                   <ul className="nav navbar-nav navbar-right">
-                       <li><a href="#home" className="smoothScroll">Home</a></li>
-                       <li><a href="#about" className="smoothScroll">About Me</a></li>
-                       <li><a href="#work" className="smoothScroll">Projects</a></li>
-                       <li><a href="#testimonial" className="smoothScroll">Testimonial</a></li>
-                       <li><a href="#contact" className="smoothScroll">Let's talk</a></li>
+                       <li><a href="/" className="smoothScroll">Home</a></li>
+                       <li><a href="/about" className="smoothScroll">About Me</a></li>
+                       <li><a href="/work" className="smoothScroll">Projects</a></li>
+                       <li><a href="/testimonial" className="smoothScroll">Testimonial</a></li>
+                       <li><a href="/contact" className="smoothScroll">Let's talk</a></li>
                   </ul>
              </div>
    
