@@ -32,25 +32,25 @@ function About () {
                                 <h2>Skillset</h2>
                             </div>
 
-                            <strong>Brand Identity</strong>
+                            <strong>HTML / CSS / Javascript</strong>
                                 <span className="color-white pull-right">70%</span>
                                     <div className="progress">
                                         <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width: "70%"}}></div>
                                     </div>
 
-                            <strong>CMS Implementation</strong>
+                            <strong>Project Managementt</strong>
                                 <span className="color-white pull-right">85%</span>
                                     <div className="progress">
                                         <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width: "85%"}}></div>
                                     </div>
 
-                            <strong>Art Direction</strong>
+                            <strong>Team Work</strong>
                                 <span className="color-white pull-right">60%</span>
                                     <div className="progress">
                                         <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{width: "60%"}}></div>
                                     </div>
 
-                            <strong>HTML / CSS / Javascript</strong>
+                            <strong>Customer Service</strong>
                                 <span className="color-white pull-right">95%</span>
                                     <div className="progress">
                                         <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{width: "95%"}}></div>
