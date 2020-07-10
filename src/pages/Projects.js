@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Project () {
+function Projects () {
     return (
     <section id="work">
     <div className="container">
@@ -62,4 +62,4 @@ function Project () {
     )
 }
 
-export default Project;
+export default Projects;

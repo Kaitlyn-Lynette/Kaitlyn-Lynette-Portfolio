@@ -4,8 +4,8 @@ import Nav from "./components/Nav"
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Talk from "./pages/Talk";
-import Testimonial from "./pages/Testimonial";
+import Experience from "./pages/Experience";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -14,9 +14,10 @@ function App() {
         <Nav />
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/work" component={Projects} />
-          <Route exact path="/testimonial" component={Talk} />
-          <Route exact path="/contact" component={Testimonial} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/experience" component={Experience} />
+          <Route exact path="/contact" component={Contact} />
+
       </div>
     </Router>
   );
