@@ -11,7 +11,7 @@ function Project () {
                     
                     <div className="section-title">
                         <h5>Featured Projects</h5>
-                        <h4>I design creative stuffs & build online digital products related business passionate.</h4>
+                        <h4>I haved designed and built the following projects during the course of the bootcamp.</h4>
                     </div>
             </div>
 
@@ -25,7 +25,7 @@ function Project () {
                         </a>
                     </div>
                     <div className="work-overlay">
-                        <h5>Product</h5>
+                        <h5>Covid Travel Planner</h5>
                         <h4>Wood D sTudio</h4>
                     </div>
             </div>
@@ -38,7 +38,7 @@ function Project () {
                         </a>
                     </div>
                     <div className="work-overlay">
-                        <h5>Photography</h5>
+                        <h5>Peliculy</h5>
                         <h4>Maladon Zone Lite</h4>
                     </div>
             </div> 
@@ -51,7 +51,7 @@ function Project () {
                         </a>
                     </div>
                     <div className="work-overlay">
-                        <h5>Mockup</h5>
+                        <h5>Chirrup!</h5>
                         <h4>Drink Palon</h4>
                     </div>
             </div>      
