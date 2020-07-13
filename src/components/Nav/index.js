@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
 import "./style.css";
 
 
@@ -25,6 +24,7 @@ function Nav() {
                        <li><a href="/about" className="smoothScroll">About Me</a></li>
                        <li><a href="/projects" className="smoothScroll">Projects</a></li>
                        <li><a href="/experience" className="smoothScroll">Experience</a></li>
+                       <li><a href="/testimonial" className="smoothScroll">Testimonial</a></li>
                        <li><a href="/contact" className="smoothScroll">Let's talk</a></li>
                   </ul>
              </div>
