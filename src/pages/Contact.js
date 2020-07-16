@@ -26,7 +26,7 @@ function Contact () {
                                 <div className="col-md-6 col-sm-6">
                                     <input type="text" className="form-control" id="cf-name" name="cf-name" placeholder="Name" />
                                 </div>
-
+                                
                                 <div className="col-md-6 col-sm-6">
                                     <input type="email" className="form-control" id="cf-email" name="email" placeholder="Email" />
                                 </div>

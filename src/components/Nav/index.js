@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 
 
+
 function Nav() {
     return (
         <div className="navbar custom-navbar navbar-fixed-top" role="navigation">
