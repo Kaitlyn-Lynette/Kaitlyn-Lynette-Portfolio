@@ -21,40 +21,40 @@ function Testimonial () {
                <div className="col-md-offset-2 col-md-8 col-sm-12">
                     <div id="owl-testimonial" className="owl-carousel">
                          <div className="item">
-                              <p>I've been blown away with the results Montana has helped us achieve in an incredible short space of time.  In less than 3 months we had more than a 300% uplift in organic traffic, saving £10,000's per month on CPC!        </p>
+                              <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
                                    <div className="tst-author">
                                         <div className="tst-foto">
                                              <img src="images/testimonial-img.jpg" className="img-responsive img-circle" alt="Testimonial" />
                                         </div>
                                         <div className="tst-author-info">
-                                             <h4>Lindane</h4>
-                                             <h5>Creative Director</h5>
+                                             <h4>Anna Crystal</h4>
+                                             <h5>Director of Customer Success at Olo</h5>
                                         </div>
                                    </div>
                          </div>
 
                          <div className="item">
-                              <p>Montana is an amazing marketer. With his guidance, we managed to form a strategy that lead to consistent page 1 rankings for high competition keywords across our brand new blog. His strategy doubled our blog traffic within 3 months!</p>
+                              <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
                                    <div className="tst-author">
                                         <div className="tst-foto">
                                              <img src="images/testimonial-img.jpg" className="img-responsive img-circle" alt="Testimonial" />
                                         </div>
                                         <div className="tst-author-info">
-                                             <h4>Bacelo</h4>
-                                             <h5>Web Designer</h5>
+                                             <h4>Dennis Ryu</h4>
+                                             <h5>Senior Product Manager at Olo</h5>
                                         </div>
                                    </div>
                          </div>
 
                          <div className="item">
-                              <p>I’m a author, speaker and multi-focused designer working on interfaces and branding for digital products and working with established global brands and startups to create digital experiences and products.</p>
+                              <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
                                    <div className="tst-author">
                                         <div className="tst-foto">
                                              <img src="images/testimonial-img.jpg" className="img-responsive img-circle" alt="Testimonial" />
                                         </div>
                                         <div className="tst-author-info">
-                                             <h4>Donald</h4>
-                                             <h5>Project Manager</h5>
+                                             <h4>Smita Patankar</h4>
+                                             <h5>Project Manager at Olo</h5>
                                         </div>
                                    </div>
                          </div>
