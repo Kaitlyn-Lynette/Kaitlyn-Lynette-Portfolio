@@ -13,7 +13,7 @@ function About () {
                             <h2>Kaitlyn is a web developer based in South Brooklyn</h2>
                             <div>
                                 <p>Earned a certificate in web development through Columbia's Engineering Bootcamp in June 2020.</p>
-                                <p>Kaitlyn has a total of 9 years professional working experience. In March 2020, she enrolled in Columbia's Engineering Bootcamp to pursue a career as a full stack web developer. Her previous job role was a technical product specialist at Olo, a SaaS restaurant technology company, and prior to that worked various roles at J.P. Morgan's Corporate & Investment Bank. She is driven, focused and brings a collaborative spirit of teamwork to her work. </p>
+                                <p>Kaitlyn has a total of 9 years professional working experience. In March 2020, she enrolled in Columbia's Engineering Bootcamp to pursue a career as a full stack web developer. From 2016 until February 2020 she was a technical product specialist at Olo, a SaaS restaurant technology company, and prior to that worked various roles at J.P. Morgan Corporate & Investment Bank. She is driven, focused and brings a collaborative spirit of teamwork to her work. </p>
                                 <p>Please contact me at <a href="mailto:yourname@gmail.com">kaitlyn.l.rodriguez@gmail.com</a>.</p>
                             </div>
                     </div>
