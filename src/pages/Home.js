@@ -15,7 +15,7 @@ function Home () {
                     <div className="home-text">
                          <h5>hey there, this is my personal site.</h5>
                          <h1>I am a new web developer based in South Brooklyn.</h1>
-                         <a href="#about" class="btn section-btn smoothScroll">Learn More<i class="fa fa-angle-right"></i></a>
+                         <a href="/about" className="btn section-btn smoothScroll">Learn More<i className="fa fa-angle-right"></i></a>
                     </div>
                </div>
 

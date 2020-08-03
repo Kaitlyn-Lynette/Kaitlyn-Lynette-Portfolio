@@ -27,8 +27,8 @@ function Testimonial () {
                                              <img src="images/testimonial-img.jpg" className="img-responsive img-circle" alt="Testimonial" />
                                         </div>
                                         <div className="tst-author-info">
-                                             <h4>Anna Crystal</h4>
-                                             <h5>Director of Customer Success at Olo</h5>
+                                             <h4>Person 1</h4>
+                                             <h5>Title</h5>
                                         </div>
                                    </div>
                          </div>
@@ -40,8 +40,8 @@ function Testimonial () {
                                              <img src="images/testimonial-img.jpg" className="img-responsive img-circle" alt="Testimonial" />
                                         </div>
                                         <div className="tst-author-info">
-                                             <h4>Dennis Ryu</h4>
-                                             <h5>Senior Product Manager at Olo</h5>
+                                             <h4>Person 2</h4>
+                                             <h5>Title</h5>
                                         </div>
                                    </div>
                          </div>
@@ -53,8 +53,8 @@ function Testimonial () {
                                              <img src="images/testimonial-img.jpg" className="img-responsive img-circle" alt="Testimonial" />
                                         </div>
                                         <div className="tst-author-info">
-                                             <h4>Smita Patankar</h4>
-                                             <h5>Project Manager at Olo</h5>
+                                             <h4>Person 3</h4>
+                                             <h5>Title</h5>
                                         </div>
                                    </div>
                          </div>

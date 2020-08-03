@@ -70,7 +70,7 @@
 
         // Smoothscroll js
         $(function() {
-          $('.custom-navbar a, #home a, #service a').on('click', function(event) {
+          $('.custom-navbar, #about a').on('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top - 49
