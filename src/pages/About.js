@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from '../components/Nav/index'
 
 
 function About () {
@@ -6,7 +7,7 @@ function About () {
     <section id="about">
         <div className="container">
             <div className="row">
-
+                {/* <Nav> */}
                 <div className="col-md-5 col-sm-6">
                     <div className="about-text">
                             <h5>About my story</h5>
@@ -55,11 +56,10 @@ function About () {
                                 <span className="color-white pull-right">5 months</span>
                                     <div className="progress">
                                         <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width: "0.5%"}}></div>
-                                    </div>
-
-                            
+                                    </div>                            
                     </div>
-                    </div>
+                </div>
+                {/* </Nav> */}
             </div>
         </div>
     </section>

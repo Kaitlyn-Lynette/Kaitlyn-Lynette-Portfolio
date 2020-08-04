@@ -47,7 +47,7 @@ html, body {
 
 
 /*---------------------------------------
-    0 Typorgraphy              
+    0 Typography              
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
@@ -219,7 +219,7 @@ a:hover, a:active, a:focus {
   animation: spinner .9s linear infinite;
 }
 
-@-webkit-@keyframes spinner {
+@keyframes spinner {
   to {transform: rotate(360deg);}
 }
 
