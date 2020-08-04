@@ -14,7 +14,10 @@ function Contact () {
                             </div>
                     </div>
 
+
                     <div className="col-md-offset-2 col-md-8 col-sm-12">
+
+                        <h6 className="text-success">Your message has been sent successfully. </h6>
                     
                             <form id="contact-form" role="form">
                         
@@ -39,7 +42,8 @@ function Contact () {
                                 <div className="col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4">
                                     <button type="submit" className="form-control" id="cf-submit" name="submit">Send Message</button>
                                 </div>
-                        </form>
+                        </form>                          
+
                     </div>
 
                 </div>

@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Testimonial from "./pages/Testimonial";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         />
         <Projects
           // dark={true}
-          id="projects"
+          id="work"
         />
         <Testimonial
           // dark={false}
@@ -30,6 +31,10 @@ function App() {
           // dark={true}
           id="contact"
         />
+        <Footer>
+          
+        </Footer>
+
       </div>
   );
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from '../components/Nav/index'
 
 
 function About () {
@@ -7,7 +6,7 @@ function About () {
     <section id="about">
         <div className="container">
             <div className="row">
-                {/* <Nav> */}
+           
                 <div className="col-md-5 col-sm-6">
                     <div className="about-text">
                             <h5>About my story</h5>
@@ -59,7 +58,7 @@ function About () {
                                     </div>                            
                     </div>
                 </div>
-                {/* </Nav> */}
+            
             </div>
         </div>
     </section>
