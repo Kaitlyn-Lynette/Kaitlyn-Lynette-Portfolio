@@ -20,27 +20,21 @@ function Nav() {
    
              <div className="collapse navbar-collapse">
                   <ul className="nav navbar-nav navbar-right">
-                       {/* <li class="smoothScroll">Home</li>
-                       <li class="smoothScroll">About Me</li>
-                       <li class="smoothScroll">Project</li>
-                       <li class="smoothScroll">Testimonial</li>
-                       <li class="smoothScroll">Let's talk</li> */}
-                    <Link activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500}>
+                    <li><Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500}>
                     Home
-                    </Link>
-                    <Link activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500}>
+                    </Link></li>
+                    <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>
                     About Me
-                    </Link>
-                    <Link activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500}>
-                    Project
-                    </Link>
-                    <Link activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500}>
+                    </Link></li>
+                    <li><Link activeClass="active" to="work" spy={true} smooth={true} offset={50} duration={500}>
+                    Projects
+                    </Link></li>
+                    <li><Link activeClass="active" to="testimonial" spy={true} smooth={true} offset={50} duration={500}>
                     Testimonial
-                    </Link>
-                    <Link activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500}>
+                    </Link></li>
+                    <li><Link activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500}>
                     Let's talk
-                    </Link>
-
+                    </Link></li>
                   </ul>
              </div>
         </div>
