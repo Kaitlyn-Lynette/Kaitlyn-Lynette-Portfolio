@@ -333,7 +333,7 @@ a:hover, a:active, a:focus {
     6 Service section              
 -----------------------------------------*/
 
-#service {
+/* #service {
   background: #f9f9f9;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -372,7 +372,7 @@ a:hover, a:active, a:focus {
 .service-thumb .fa {
   border-radius: 100%;
   font-size: 45px;
-}
+} */
 
 
 
@@ -652,13 +652,13 @@ footer {
 
   #home .home-img,
   #home .home-text {
-    height: 50vh;
+    height: 100vh;
   }
 
-  #service .service-thumb {
+  /* #service .service-thumb {
     padding-bottom: 22px;
     margin-top: 28px;
-  }
+  } */
 
   #work .col-md-4 {
     margin-bottom: 55px;
