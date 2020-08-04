@@ -30,31 +30,34 @@ function About () {
 
                             <div className="section-title">
                                 <h2>Skillset</h2>
+                                <p>Scale of 10 years</p>
                             </div>
 
-                            <strong>HTML / CSS / Javascript</strong>
-                                <span className="color-white pull-right">70%</span>
-                                    <div className="progress">
-                                        <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width: "70%"}}></div>
-                                    </div>
-
-                            <strong>Project Managementt</strong>
-                                <span className="color-white pull-right">85%</span>
-                                    <div className="progress">
-                                        <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width: "85%"}}></div>
-                                    </div>
-
                             <strong>Team Work</strong>
-                                <span className="color-white pull-right">60%</span>
+                                <span className="color-white pull-right">9 years</span>
                                     <div className="progress">
-                                        <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{width: "60%"}}></div>
+                                        <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{width: "90%"}}></div>
                                     </div>
 
                             <strong>Customer Service</strong>
-                                <span className="color-white pull-right">95%</span>
+                                <span className="color-white pull-right">4 years</span>
                                     <div className="progress">
-                                        <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{width: "95%"}}></div>
+                                        <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{width: "40%"}}></div>
                                     </div>
+
+                            <strong>Project Management</strong>
+                                <span className="color-white pull-right">4 years</span>
+                                    <div className="progress">
+                                        <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width: "40%"}}></div>
+                                    </div>
+
+                            <strong>HTML / CSS / Javascript</strong>
+                                <span className="color-white pull-right">5 months</span>
+                                    <div className="progress">
+                                        <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width: "0.5%"}}></div>
+                                    </div>
+
+                            
                     </div>
                     </div>
             </div>

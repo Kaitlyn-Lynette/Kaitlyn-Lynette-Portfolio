@@ -3,7 +3,7 @@
     "use strict";
 
         // PRE loader
-        $(window).load(function(){
+        $(window).on('load',function(){
           $('.preloader').fadeOut(1000); // set duration in brackets    
         });
 
@@ -67,10 +67,10 @@
             Speedfast: 200,
         });
 
+        //Smooth scroll
 
-        // Smoothscroll js
         $(function() {
-          $('.custom-navbar, #about a').on('click', function(event) {
+          $('.custom-navbar').on('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top - 49
