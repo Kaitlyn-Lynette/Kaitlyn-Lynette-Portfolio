@@ -10,6 +10,10 @@ function Projects () {
                   <div className="clearfix"></div>
 
                   <div className="col-md-4 col-sm-6">
+
+                       <div className="work-title">
+                            <h2>Latest Project</h2>
+                       </div>
                  
                        <div className="work-thumb">
                             <a href="images/work-3.jpg" className="image-popup">
