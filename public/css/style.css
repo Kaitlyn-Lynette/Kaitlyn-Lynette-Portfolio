@@ -463,6 +463,8 @@ a:hover, a:active, a:focus {
 
 
 
+
+
 /*---------------------------------------
    9 Testimonial section              
 -----------------------------------------*/
@@ -778,6 +780,7 @@ footer {
   #work .col-md-4 {
     margin-bottom: 75px;
   }
+
 
   #client .container {
     padding: 42px 22px;
