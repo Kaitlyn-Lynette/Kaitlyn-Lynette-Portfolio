@@ -423,10 +423,10 @@ a:hover, a:active, a:focus {
   width: 100%;
 }
 
-/* .work-title {
+.work-title {
   position: relative;
   padding-bottom: 22px;
-} */
+}
 
 .work-thumb {
   margin: 15px 5px 5px 5px;
@@ -436,6 +436,7 @@ a:hover, a:active, a:focus {
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
+
 
 .work-thumb:hover {
   background: #ffffff;
