@@ -16,13 +16,19 @@ function Projects () {
                        </div>
                  
                        <div className="work-thumb">
-                            <a href="images/work-3.jpg" className="image-popup">
+                            {/* <a href="images/work-3.jpg" className="image-popup">
                                  <img src="images/work-3.jpg" className="img-responsive" alt="Work" />
-                            </a>
+                            </a> */}
+                            <video width="300" height="500" controls>
+                            <source src="images/movie.mp4" type="video/mp4" />
+                            </video>
                        </div>
-                       <div className="work-overlay">
-                            {/* <h5>Chirrup</h5> */}
-                            <h4><a href="https://chirrup-app.herokuapp.com/">Chirrup!</a></h4>
+                       <div className="title">
+                            {/* <h5><a href="https://chirrup-app.herokuapp.com/">Check it out!</a></h5> */}
+                            <h4>Chirrup!</h4>
+                       </div>
+                       <div className="summary">
+                       <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRO2m3wfUIq8nsxCfB-gTaGLVSiW2AvHHuuyWVZ9PyS3XyJ9SjgEc6uPwQ4SyLElEhNpUKxo-CnOy1r/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                        </div>
                   </div>      
    
