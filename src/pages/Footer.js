@@ -12,13 +12,13 @@ function Footer () {
                     </div>
                </div>
 
-               <div class="col-md-4 col-sm-5">
+               {/* <div class="col-md-4 col-sm-5">
                     <ul class="social-icon">
                          <li><a href="https://www.linkedin.com/in/krodriguez93/" class="fa fa-linkedin"></a></li>
                          <li><a href="https://www.facebook.com/kaitlyn.rodriguez.52" class="fa fa-facebook"></a></li>
                          <li><a href="https://github.com/Kaitlyn-Lynette" class="fa fa-github"></a></li>
                     </ul>
-               </div>
+               </div> */}
                
           </div>
         </div>
