@@ -54,6 +54,19 @@ function Testimonial () {
                                         </div>
                                    </div>
                          </div>
+
+                         <div className="item">
+                              <p>"Kaitlyn was instrumental in leading my onboarding onto the Guest Experience team. Amongst the numerous tasks, issues, and projects that she had on her plate, she always dedicated time to share her product knowledge and strategies with me, which helped me develop in my role immensely. She never backed away from challenging integrations or troubleshooting issues and consistently exemplified what going above and beyond for internal and external teams meant. Her straightforward thinking and problem solving skills pushed our team to continually identify ways to improve our processes and come up with custom solutions for clients. Kaitlyn's work discipline and dedication would make her a great asset to any team!"</p>
+                                   <div className="tst-author">
+                                        <div className="tst-foto">
+                                             <img src="images/testimonial-img.jpg" className="img-responsive img-circle" alt="Testimonial" />
+                                        </div>
+                                        <div className="tst-author-info">
+                                             <h4>Gloria Chin</h4>
+                                             <h5>Techinical Specialist, Customer Success at Olo</h5>
+                                        </div>
+                                   </div>
+                         </div>
                     {/* </OwlCarousel> */}
 
                </div>
