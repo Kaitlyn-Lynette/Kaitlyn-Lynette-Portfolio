@@ -24,7 +24,7 @@ function Projects () {
                </div>
                <div className="col-md-3 col-sm-12">
                     <div className="work-presentation">
-                         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRO2m3wfUIq8nsxCfB-gTaGLVSiW2AvHHuuyWVZ9PyS3XyJ9SjgEc6uPwQ4SyLElEhNpUKxo-CnOy1r/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                         <iframe title= "presentation" src="https://docs.google.com/presentation/d/e/2PACX-1vRO2m3wfUIq8nsxCfB-gTaGLVSiW2AvHHuuyWVZ9PyS3XyJ9SjgEc6uPwQ4SyLElEhNpUKxo-CnOy1r/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                     </div>
                </div>
           </div>
