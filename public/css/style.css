@@ -419,7 +419,8 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 .about-image img,
-.work-thumb img {
+.work-thumb img,
+.work-presentation iframe{
   width: 100%;
 }
 
@@ -664,6 +665,21 @@ footer {
 /*---------------------------------------
     14 Mobile Responsive styles              
 -----------------------------------------*/
+@media (max-width: 1000px) {
+
+  .work-presentation {
+    margin-left: 30px;
+    width: 960px;
+    height: 569px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+  } 
+}
+
+
 
 @media (max-width: 980px) {
 
@@ -810,14 +826,14 @@ footer {
     margin-bottom: 12px;
   }
 
-  .work-presentation {
+  /* .work-presentation {
     margin: 30px 30px 30px 60px;
     overflow: hidden;
     position: relative;
     top: 0;
     -webkit-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
-  } 
+  }  */
 
   }
 
