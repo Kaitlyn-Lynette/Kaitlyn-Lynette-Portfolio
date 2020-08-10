@@ -22,13 +22,13 @@ function Projects () {
                               <h4>Chirrup!</h4>
                          </div>
                     </div>
-                    <div className="col-md-4 col-sm-6">
+                    <div className="col-md-6 col-sm-6">
                          <div className="presentation-title">
                               <h2>Pitch Deck</h2>
                          </div>
-
+               
                          <div className="work-presentation">
-                              <iframe title= "presentation" src="https://docs.google.com/presentation/d/e/2PACX-1vRO2m3wfUIq8nsxCfB-gTaGLVSiW2AvHHuuyWVZ9PyS3XyJ9SjgEc6uPwQ4SyLElEhNpUKxo-CnOy1r/embed?start=true&loop=true&delayms=3000" frameborder="0" width="250" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                              <iframe title= "presentation" src="https://docs.google.com/presentation/d/e/2PACX-1vRO2m3wfUIq8nsxCfB-gTaGLVSiW2AvHHuuyWVZ9PyS3XyJ9SjgEc6uPwQ4SyLElEhNpUKxo-CnOy1r/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                          </div>
                     </div>
                </div>
