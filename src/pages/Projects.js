@@ -22,7 +22,7 @@ function Projects () {
                               <h4>Chirrup!</h4>
                          </div>
                     </div>
-                    <div className="col-md-6 col-sm-6">
+                    <div className="col-lg-8 col-md-6 col-sm-6">
                          <div className="presentation-title">
                               <h2>Pitch Deck</h2>
                          </div>
