@@ -19,7 +19,8 @@ function Projects () {
                               </video>
                          </div>
                          <div className="title">
-                              <h4>Chirrup!</h4>
+                         <a href="https://chirrup-app.herokuapp.com"> <h4>Chirrup!</h4> </a>
+                              
                          </div>
                     </div>
                     <div className="col-lg-8 col-md-6 col-sm-6">
