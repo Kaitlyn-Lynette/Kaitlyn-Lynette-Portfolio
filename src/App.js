@@ -12,29 +12,21 @@ function App() {
       <div>
         <Nav />
         <Home
-          // dark={true}
           id="home"
         />
         <About
-          // dark={false}
           id="about"
         />
         <Projects
-          // dark={true}
           id="work"
         />
         <Testimonial
-          // dark={false}
           id="testimonial"
         />
         <Contact
-          // dark={true}
           id="contact"
         />
-        <Footer>
-          
-        </Footer>
-
+        <Footer />
       </div>
   );
 }
