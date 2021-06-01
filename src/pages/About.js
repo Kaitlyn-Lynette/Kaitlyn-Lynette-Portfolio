@@ -10,10 +10,10 @@ function About () {
                 <div className="col-md-5 col-sm-6">
                     <div className="about-text">
                             <h5>About my story</h5>
-                            <h2>Kaitlyn is a web developer based in South Brooklyn</h2>
+                            <h2>Kaitlyn started her career professionally working for the Corporate Investment Bank J.P. Morgan and has followed a path that led to completing a web development bootcamp June 2020. Since then she's applied her web development skills for personal entrepreneurial projects. </h2>
                             <div>
                                 <p>Earned a certificate in web development through Columbia's Engineering Bootcamp in June 2020.</p>
-                                <p>Kaitlyn has a total of 9 years professional working experience. In March 2020, she enrolled in Columbia's Engineering Bootcamp to pursue a career as a full stack web developer. From 2016 until February 2020 she was a technical product specialist at Olo, a SaaS restaurant technology company, and prior to that worked various roles at J.P. Morgan Corporate & Investment Bank. She is driven, focused and brings a collaborative spirit of teamwork to her work. </p>
+                                <p>Kaitlyn has a total of 9 years professional working experience. In March 2020, she started Columbia's Engineering Bootcamp, at the height of the pandemic, to pursue her interest in web development for her own entrepreneurial ideas. She is interested in obtaining professional work experience to further develop web development and technical project management skills.   </p>
                                 <p>Please contact me at <a href="mailto:yourname@gmail.com">kaitlyn.l.rodriguez@gmail.com</a>.</p>
                             </div>
                     </div>
