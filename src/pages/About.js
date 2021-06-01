@@ -7,15 +7,21 @@ function About () {
         <div className="container">
             <div className="row">
            
-                <div className="col-md-5 col-sm-6">
+                <div className="col-md-8 col-sm-6">
                     <div className="about-text">
-                            <h5>About my story</h5>
-                            <h2>Kaitlyn started her career professionally working for the Corporate Investment Bank J.P. Morgan and has followed a path that led to completing a web development bootcamp June 2020. Since then she's applied her web development skills for personal entrepreneurial projects. </h2>
+                            <h2>About my story</h2>
+                            <h4>I started my career professionally working for the Corporate Investment Bank J.P. Morgan, gained experience as a Technial Product Specialist for a SAAS company called Olo for 3.5 years, and completed a web development bootcamp with Columbia University in June 2020. Since then I have applied my web development skills for personal entrepreneurial projects. </h4>
                             <div>
-                                <p>Earned a certificate in web development through Columbia's Engineering Bootcamp in June 2020.</p>
-                                <p>Kaitlyn has a total of 9 years professional working experience. In March 2020, she started Columbia's Engineering Bootcamp, at the height of the pandemic, to pursue her interest in web development for her own entrepreneurial ideas. She is interested in obtaining professional work experience to further develop web development and technical project management skills.   </p>
+                                <p>I'm interested in obtaining professional work experience to further enhance my web development and technical project management skills. </p>
                                 <p>Please contact me at <a href="mailto:yourname@gmail.com">kaitlyn.l.rodriguez@gmail.com</a>.</p>
                             </div>
+                    </div>
+                    <div className="about-text">
+                        <h2>Education</h2>
+                        <div>
+                            <p>Executive Education Full-Stack Web Development Certificate Program (March - June 2020)</p>
+                            <p>Bachelor of Science – Dual Concentration in Entrepreneurship and Finance (May 2015)</p>
+                        </div>
                     </div>
                 </div>
 
@@ -25,12 +31,11 @@ function About () {
                     </div>
                 </div>
 
-                <div className="col-md-3 col-sm-12">
+                {/* <div className="col-md-3 col-sm-12">
                     <div className="skill-thumb">
 
                             <div className="section-title">
                                 <h2>Skillset</h2>
-                                <p>Scale of 10 years</p>
                             </div>
 
                             <strong>Team Work</strong>
@@ -57,7 +62,7 @@ function About () {
                                         <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width: "0.5%"}}></div>
                                     </div>                            
                     </div>
-                </div>
+                </div> */}
             
             </div>
         </div>
