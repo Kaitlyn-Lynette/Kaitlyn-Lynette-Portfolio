@@ -10,7 +10,7 @@ function About () {
                 <div className="col-md-8 col-sm-6">
                     <div className="about-text">
                             <h2>About my story</h2>
-                            <h4>I started my career professionally working for the Corporate Investment Bank J.P. Morgan, gained experience as a Technial Product Specialist for a SAAS company called Olo for 3.5 years, and completed a web development bootcamp with Columbia University in June 2020. Since then I have applied my web development skills for personal entrepreneurial projects. </h4>
+                            <p>I started my career professionally working for the Corporate Investment Bank J.P. Morgan, gained experience as a Technial Product Specialist for a SAAS company called Olo for 3.5 years, and completed a web development bootcamp with Columbia University in June 2020. Since then I have applied my web development skills for personal entrepreneurial projects. </p>
                             <div>
                                 <p>I'm interested in obtaining professional work experience to further enhance my web development and technical project management skills. </p>
                                 <p>Please contact me at <a href="mailto:yourname@gmail.com">kaitlyn.l.rodriguez@gmail.com</a>.</p>
