@@ -11,14 +11,32 @@ function Projects () {
 
                     <div className="col-md-4 col-sm-6">
                          <div className="work-title">
-                              <h2>Lifstyle Brand Project on Shopify</h2>
-                              <a href="https://calmateco.com/"> <h4>Calmate</h4></a>
+                              <h2>Lifstyle Brand on Shopify</h2>
+                              <div className="title">
+                                   <a href="https://calmateco.com/"> <h4>Calmate</h4></a>
+                              </div>
                          </div>
-                              
+
+                         <div className="work-thumb">
+                              <video width="300" height="300" controls>
+                              <source src="images/CalmateWebsite.mp4" type="video/mp4" />
+                              </video>
+                         </div>
+
+                         {/* <p>Developed this site using Shopify liquid and documented my experience with liquid. </p>
+                                   <a href="https://medium.com/@kaitlyn.l.rodriguez/thoughts-on-building-a-site-with-shopify-6ab083351f75"><h4>Read my thoughts on the development here</h4></a> */}
+
+                        
+
+
                     </div>
+                  
                     <div className="col-md-4 col-sm-6">
                          <div className="work-title">
                               <h2>React Mobile Web Application</h2>
+                              <div className="title">
+                                   <a href="https://chirrup-app.herokuapp.com"> <h4>Chirrup!</h4> </a>
+                              </div>
                          </div>
                     
                          <div className="work-thumb">
@@ -26,10 +44,8 @@ function Projects () {
                               <source src="images/movie.mp4" type="video/mp4" />
                               </video>
                          </div>
-                         <div className="title">
-                         <a href="https://chirrup-app.herokuapp.com"> <h4>Chirrup!</h4> </a>
-                              
-                         </div>
+                        
+
                     </div>
                     <div className="col-md-4 col-sm-6">
                          <div className="work-title">
