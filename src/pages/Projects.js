@@ -18,8 +18,8 @@ function Projects () {
                          </div>
 
                          <div className="work-thumb">
-                              <video width="300" height="300" controls>
-                              <source src="images/CalmateWebsite.mp4" type="video/mp4" />
+                              <video width="300" height="500" controls>
+                              <source src="images/CalmateWebMobile.mp4" type="video/mp4" />
                               </video>
                          </div>
 

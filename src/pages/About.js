@@ -26,7 +26,7 @@ function About () {
                     <div className="about-text">
                         <h2>Education</h2>
                         <div>
-                            <p>Executive Education Columbia University Full-Stack Web Development Certificate Program (March - June 2020)</p>
+                            <p>Columbia University Executive Education Full-Stack Web Development Certificate Program (March - June 2020)</p>
                             <p>Fordham University Bachelor of Science – Dual Concentration in Entrepreneurship and Finance (May 2015)</p>
                         </div>
                     </div>
