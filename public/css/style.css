@@ -412,15 +412,17 @@ a:hover, a:active, a:focus {
   box-shadow: none;
 }
 
-#about .about-image {
+#about .cert-image {
   background: url('../images/Rodriguez-Cert-2020.jpg') no-repeat;
-  /* background-size: cover;
-  background-position: 50% 50%; */
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 400px;
 }
 
-
+#about .timeline-image {
+  background: url('../images/timeline.png') no-repeat;
+  width:300px;
+  height: 500px;
+}
 
 /*---------------------------------------
     8 Work section              
