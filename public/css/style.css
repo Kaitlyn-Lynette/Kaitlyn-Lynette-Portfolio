@@ -424,6 +424,8 @@ a:hover, a:active, a:focus {
   height: 500px;
 }
 
+
+
 /*---------------------------------------
     8 Work section              
 -----------------------------------------*/
@@ -822,16 +824,9 @@ footer {
 
   }
 
-  @media (max-width: 375px) {
-    .work-presentation {
-      margin-left: 30px;
-      width: 300px;
-      height: 500px;
-      overflow: hidden;
-      position: relative;
-      top: 0;
-      -webkit-transition: all ease-in-out 0.4s;
-      transition: all ease-in-out 0.4s;
-    } 
-
+  @media (min-width: 375px) {
+    #about .cert-image {
+      width: 350px;
+      height: 300px;
+    }
   }
