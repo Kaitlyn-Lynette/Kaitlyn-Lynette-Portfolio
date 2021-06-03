@@ -15,7 +15,7 @@ function Nav() {
                        <span className="icon icon-bar"></span>
                   </button>
              
-                  <a href="index.html" className="navbar-brand">Kaitlyn Lynette</a>
+                  <a href="index.html" className="navbar-brand">Kaitlyn Rodriguez-Gilbert</a>
              </div>
    
              <div className="collapse navbar-collapse">

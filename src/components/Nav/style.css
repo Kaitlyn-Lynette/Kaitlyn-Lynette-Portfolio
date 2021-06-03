@@ -9,6 +9,7 @@
     color:white;
     font-size: 20px;
     line-height: 40px;
+  
   }
   
   .custom-navbar .nav li a {
@@ -50,7 +51,7 @@
     border-color: transparent;
   }
   
-  @media(min-width:768px) {
+  @media(min-width:375px) {
     .custom-navbar {
       border-bottom: 0;
       background: 0 0; 
@@ -59,4 +60,5 @@
       background: #bda5a5;
       box-shadow:0 40px 100px rgba(0,0,0,.2);
     }
+
   }
