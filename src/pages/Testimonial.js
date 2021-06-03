@@ -56,6 +56,19 @@ function Testimonial () {
                                    </div>
                               </div>
                     </div>
+
+                    <div className="item">
+                         <p>"Kaitlyn is without a doubt one of most hardworking and talented students I've had the privilege to teach. From the very beginning of my time teaching her she demonstrated a formidable tenacity in her approach to problem solving that was rivaled only by her focus. Kaitlyn consistently tested herself working on either end of the stack, repeatedly gravitating away from her established strengths to sharpen her skills in areas she believed she could still improve, seeing each challenge as an opportunity for deeper understanding. An exercise was not over when Kaitlyn got her code to run but only when she completely understood how every piece fit together. She showed an early aptitude for both MongoDB and SQL but has demonstrated a consistent passion for React.js, continuing to study and build React apps with her former classmates long after the course concluded. As a teammate Kaitlyn has a unique ability to exude authority keeping her team organized and on task while still maintaining an air of camaraderie with her natural charisma. I expect much success in her future as an engineer and can say she would be a valuable addition to any development team without question."</p>
+                              <div className="tst-author">
+                                   <div className="tst-foto">
+                                        {/* <img src="images/testimonial-img.jpg" className="img-responsive img-circle" alt="Testimonial" /> */}
+                                   </div>
+                                   <div className="tst-author-info">
+                                        <h4>Justin Pinero</h4>
+                                        <h5>Course Assistant Columbia University, Software Engineer Aquent</h5>
+                                   </div>
+                              </div>
+                    </div>
                </div>
                     
           </div>
