@@ -412,6 +412,14 @@ a:hover, a:active, a:focus {
   box-shadow: none;
 }
 
+#about .about-image {
+  background: url('../images/Rodriguez-Cert-2020.jpg') no-repeat;
+  /* background-size: cover;
+  background-position: 50% 50%; */
+  width: 400px;
+  height: 300px;
+}
+
 
 
 /*---------------------------------------
