@@ -22,13 +22,8 @@ function Projects () {
                               <source src="images/CalmateWebMobile.mp4" type="video/mp4" />
                               </video>
                          </div>
-
                          {/* <p>Developed this site using Shopify liquid and documented my experience with liquid. </p>
                                    <a href="https://medium.com/@kaitlyn.l.rodriguez/thoughts-on-building-a-site-with-shopify-6ab083351f75"><h4>Read my thoughts on the development here</h4></a> */}
-
-                        
-
-
                     </div>
                   
                     <div className="col-md-4 col-sm-6">
@@ -44,8 +39,6 @@ function Projects () {
                               <source src="images/movie.mp4" type="video/mp4" />
                               </video>
                          </div>
-                        
-
                     </div>
                     <div className="col-md-4 col-sm-6">
                          <div className="work-title">
