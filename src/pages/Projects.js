@@ -8,7 +8,6 @@ function Projects () {
                <div className="row">
                     <div className="clearfix"></div>
 
-
                     <div className="col-md-4 col-sm-6">
                          <div className="work-title">
                               <h2>Lifstyle Brand on Shopify</h2>
@@ -43,6 +42,7 @@ function Projects () {
                     </div>
                     
                     <div className="col-md-4 col-sm-6">
+                         
                          <div className="work-title">
                               <h2>NonProfit Site on Wordpress</h2>
                               <a href="http://karama.nyc/"> <h4>Karama Kids</h4></a>

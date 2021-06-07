@@ -36,39 +36,6 @@ function About () {
                             <img src="../images/Rodriguez-Cert-2020.jpg" className="cert-image" alt="about" />
                     </div>
                 </div>
-
-                {/* <div className="col-md-3 col-sm-12">
-                    <div className="skill-thumb">
-
-                            <div className="section-title">
-                                <h2>Skillset</h2>
-                            </div>
-
-                            <strong>Team Work</strong>
-                                <span className="color-white pull-right">9 years</span>
-                                    <div className="progress">
-                                        <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{width: "90%"}}></div>
-                                    </div>
-
-                            <strong>Customer Service</strong>
-                                <span className="color-white pull-right">4 years</span>
-                                    <div className="progress">
-                                        <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style={{width: "40%"}}></div>
-                                    </div>
-
-                            <strong>Project Management</strong>
-                                <span className="color-white pull-right">4 years</span>
-                                    <div className="progress">
-                                        <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style={{width: "40%"}}></div>
-                                    </div>
-
-                            <strong>HTML / CSS / Javascript</strong>
-                                <span className="color-white pull-right">5 months</span>
-                                    <div className="progress">
-                                        <div className="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style={{width: "0.5%"}}></div>
-                                    </div>                            
-                    </div>
-                </div> */}
             </div>
         </div>
     </section>

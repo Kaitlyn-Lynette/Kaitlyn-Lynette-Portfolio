@@ -3,10 +3,6 @@ import Carousel from "react-elastic-carousel";
 import Item from "../components/carousel/Item";
 import "../components/carousel/styles.css";
 
-// import OwlCarousel from 'react-owl-carousel';
-// import 'owl.carousel/dist/assets/owl.carousel.css';
-// import 'owl.carousel/dist/assets/owl.theme.default.css';
-
 const breakPoints = [
      // { width: 1, itemsToShow: 1 },
      // { width: 550, itemsToShow: 2 },
@@ -31,8 +27,7 @@ function Testimonial () {
                <div className="clearfix"></div>
 
                <div className="col-md-offset-2 col-md-8 col-sm-12">
-               {/* <OwlCarousel className='owl-theme'> */}
-                    {/* <div id="owl-testimonial" className="owl-carousel"> */}
+     
                          <Carousel breakPoints={breakPoints}>
 
                          <Item>
@@ -89,10 +84,10 @@ function Testimonial () {
 
                          </Carousel>
               </div>
-               {/* </OwlCarousel> */}
           </div>
      </div>
 </section>
+
 
     )
 }
