@@ -18,7 +18,7 @@ function Projects () {
 
                          <div className="work-thumb">
                               <video width="300" height="500" controls>
-                              <source src="images/calmatewebmobile.mp4" type="video/mp4" />
+                              <source src="images/movie2.mp4" type="video/mp4" />
                               </video>
                          </div>
                          {/* <p>Developed this site using Shopify liquid and documented my experience with liquid. </p>
@@ -50,7 +50,7 @@ function Projects () {
                    
                          <div className="work-thumb">
                               <video width="300" height="500" controls>
-                              <source src="images/karamakids.mp4" type="video/mp4" />
+                              <source src="images/movie3.mp4" type="video/mp4" />
                               </video>
                          </div>
                     </div>
